@@ -1,0 +1,321 @@
+/* 
+========================================== 
+RESET CSS 
+========================================== 
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+/* ------------------------------------------- */
+
+
+
+/* 
+========================================== 
+FONTS
+========================================== 
+*/
+
+/* font-family: 'Hind', sans-serif; */
+
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F25652;
+   font-family: 'Hind';
+}
+
+
+/* 
+========================================== 
+Container-main 
+========================================== 
+*/
+
+.container-main{
+   
+    display: flex;
+    width: 100%;
+    max-width:1024px;
+    height: 500px;
+    
+}
+
+header{
+    display: flex;
+    flex:1;
+}
+
+/* 
+========================================== 
+Container-menu
+========================================== 
+*/
+
+.container-main-menu-main{
+    
+    display: flex;
+    flex:1;
+    justify-content: center;
+    widows: 100%;
+    height: 100px;
+    
+    
+
+}
+/* 
+========================================== 
+menu logo
+========================================== 
+*/
+
+.container-main-menu-logo{
+    
+    display: flex;
+    align-items: center;
+    width:90%;
+    min-width: 100px;
+    
+}
+
+.logo{
+    height:60%;
+}
+
+/* 
+========================================== 
+menu hamburger
+========================================== 
+*/
+
+.container-main-menu-hamburger{
+    
+    display: flex;
+    width:10%;
+    min-width: 100px;
+    padding-right: 20px;
+    
+     
+}
+
+.menu-line-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
+    
+    
+    
+}
+
+
+/* 
+========================================== 
+menu hamburger button
+========================================== 
+*/
+.box-button-menu{
+   cursor: pointer; 
+    z-index: 999;
+}
+
+
+
+.menu-line{
+    width:40px;
+    height: 4px;
+    border-radius: 5px;
+    background-color:white;
+   
+    
+}
+
+.one{
+  transition-duration:0.5s; 
+}
+.two{
+   margin-top:5px;
+    transition-duration:1s; 
+}
+.three{
+   margin-top:5px; 
+    transition-duration:0.5s; 
+}
+
+
+/* 
+========================================== 
+animation menu hamburger button  
+========================================== 
+*/
+
+.box-button-menu:hover .one{
+   transition-duration:0.5s;
+   
+   transform: rotate(45deg);
+   margin-top:10px; 
+}
+
+.box-button-menu:hover .two{
+  transition-duration:0.1s;
+  opacity: 0;
+}
+
+
+.box-button-menu:hover .three{
+   transition-duration:0.5s;
+   
+   transform: rotate(-45deg);
+   margin-top:-13px; 
+}
+
+/* 
+========================================== 
+menu roll 
+========================================== 
+*/
+.menu-roll-container{
+    
+    
+    justify-content: center;
+    align-content: space-between;
+    position:absolute;
+    z-index: 88;
+    top:-130px;
+    width:100%;
+    height: 120px;
+    background-color:white;
+}
+
+.menu-roll{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10px;
+}
+
+.menu-rol-list{
+    display: flex;
+    padding-top: 40px;
+    align-self: center;
+    z-index: 100;
+    color:#F25652;
+    
+    
+}
+
+.menu-rol-list li a{
+    padding:10px;
+    color: #F25652;
+}
+
+
+
+
+/* 
+========================================== 
+Javascript class add and off
+========================================== 
+*/
+
+
+/* 
+========================================== 
+Javascript hamburger button
+========================================== 
+*/
+
+
+.color{
+    background-color:#F25652;
+}
+
+
+.rotone{
+   transform: rotate(45deg);
+   margin-top:10px; 
+}
+
+.rotthree{
+   transform: rotate(-45deg);
+   margin-top:-13px; 
+}
+
+.opacitytwo{
+    opacity: 0;
+}
+
+/* 
+========================================== 
+Javascript menu roll down and up
+========================================== 
+*/
+
+.show{
+    
+    transform: translateY(130px);
+    transition-duration:0.5s; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
