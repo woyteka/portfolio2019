@@ -85,9 +85,10 @@ Container-main
 .container-main{
    
     display: flex;
+    flex-direction: column;
     width: 100%;
     max-width:1024px;
-    height: 500px;
+    
     
 }
 
@@ -109,6 +110,7 @@ Container-menu
     justify-content: center;
     widows: 100%;
     height: 100px;
+     margin-bottom: 5%;
     
     
 
@@ -144,6 +146,7 @@ menu hamburger
     width:10%;
     min-width: 100px;
     padding-right: 20px;
+   
     
      
 }
@@ -237,6 +240,7 @@ menu roll
     width:100%;
     height: 120px;
     background-color:white;
+    transition-duration:0.5s; 
 }
 
 .menu-roll{
@@ -263,11 +267,6 @@ menu roll
 
 
 
-/* 
-========================================== 
-Javascript class add and off
-========================================== 
-*/
 
 
 /* 
@@ -307,6 +306,55 @@ Javascript menu roll down and up
     transform: translateY(130px);
     transition-duration:0.5s; 
 }
+
+
+/* 
+========================================== 
+Title container 
+========================================== 
+*/
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    line-height: 10px;
+    padding:10px;
+    transition-duration:0.5s;
+}
+
+.h1{
+    font-size: 500%;
+    font-weight: 700;
+    line-height: 60px;
+    transition-duration:0.5s;
+        
+}
+
+.h2{
+    font-size: 270%;
+    line-height: 40px;
+}
+
+/* 
+========================================== 
+ANIMATION PORTFOLIO 
+========================================== 
+*/
+.animation-portfolio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#animation_container{
+    display: flex;
+    width:100%;
+    padding-top:5%;
+}
+
 
 
 
