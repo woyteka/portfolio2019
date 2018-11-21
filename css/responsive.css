@@ -34,5 +34,34 @@ Resolution max 360px
         line-height: 30px;
     }
     
+    .h3{
+        font-size: 100%;
+        transition-duration:0.5s;
+        line-height: 20px;
+    }
+    
+    
+    /* 
+========================================== 
+INFO CONTAINER 
+========================================== 
+*/
+
+    .info-container{
+        margin-top:30px;
+        
+    }
+
+
+    .info-box{
+        color:white;
+        width:90%;
+    
+    }
+    
+    .bold{
+       line-height: 30px;     
+    }
+    
     
 }

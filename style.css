@@ -78,6 +78,31 @@ body
 
 /* 
 ========================================== 
+FONT SIZE H1,H2,H3,H4 
+========================================== 
+*/
+
+.h1{
+    font-size: 500%;
+    font-weight: 700;
+    line-height: 60px;
+    transition-duration:0.5s;
+        
+}
+
+.h2{
+    font-size: 270%;
+    line-height: 40px;
+}
+
+.h3{
+     font-size: 130%; 
+    
+}
+
+
+/* 
+========================================== 
 Container-main 
 ========================================== 
 */
@@ -324,18 +349,7 @@ Title container
     transition-duration:0.5s;
 }
 
-.h1{
-    font-size: 500%;
-    font-weight: 700;
-    line-height: 60px;
-    transition-duration:0.5s;
-        
-}
 
-.h2{
-    font-size: 270%;
-    line-height: 40px;
-}
 
 /* 
 ========================================== 
@@ -352,8 +366,39 @@ ANIMATION PORTFOLIO
 #animation_container{
     display: flex;
     width:100%;
-    padding-top:5%;
+    padding-top:1%;
 }
+
+/* 
+========================================== 
+INFO CONTAINER 
+========================================== 
+*/
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.info-box{
+    color:white;
+    width: 95%;
+    line-height: 180%;
+    
+}
+
+
+.bold{
+    font-weight: 700;
+    color:#FEC100;
+    font-size:160%;
+    line-height: 120%;
+    
+}
+
 
 
 
