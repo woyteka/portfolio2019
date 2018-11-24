@@ -1,6 +1,32 @@
 /* 
 ========================================== 
-RESET CSS 
+00-RESET CSS
+01-FONTS
+02-FONT SIZE H1,H2,H3,H4
+03-Container-main 
+04-Container-menu
+05-menu logo
+06-menu hamburger
+07-menu hamburger button
+08-animation menu hamburger button 
+09-menu roll
+10-Javascript hamburger button
+11-Javascript menu roll down and up
+12-TITLE CONTAINER 
+13-ANIMATION PORTFOLIO
+14-INFO CONTAINER 
+15-BLUE ANIMATION CONTAINER 
+16-WHITE CONTAINER INFO HELP
+========================================== 
+*/
+
+
+
+
+
+/* 
+========================================== 
+00-RESET CSS 
 ========================================== 
 */
 
@@ -60,7 +86,7 @@ table {
 
 /* 
 ========================================== 
-FONTS
+01-FONTS
 ========================================== 
 */
 
@@ -78,21 +104,19 @@ body
 
 /* 
 ========================================== 
-FONT SIZE H1,H2,H3,H4 
+02-FONT SIZE H1,H2,H3,H4 
 ========================================== 
 */
 
 .h1{
     font-size: 500%;
-    font-weight: 700;
-    line-height: 60px;
-    transition-duration:0.5s;
+   
         
 }
 
 .h2{
     font-size: 270%;
-    line-height: 40px;
+    
 }
 
 .h3{
@@ -101,11 +125,28 @@ FONT SIZE H1,H2,H3,H4
 }
 
 
+.bold{
+    font-weight: 700;
+    
+    
+}
+
+
+
+
 /* 
 ========================================== 
-Container-main 
+03-Container-main 
 ========================================== 
 */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    align-items: center
+}
+
 
 .container-main{
    
@@ -124,7 +165,7 @@ header{
 
 /* 
 ========================================== 
-Container-menu
+04-Container-menu
 ========================================== 
 */
 
@@ -142,7 +183,7 @@ Container-menu
 }
 /* 
 ========================================== 
-menu logo
+05-menu logo
 ========================================== 
 */
 
@@ -161,7 +202,7 @@ menu logo
 
 /* 
 ========================================== 
-menu hamburger
+06-menu hamburger
 ========================================== 
 */
 
@@ -191,7 +232,7 @@ menu hamburger
 
 /* 
 ========================================== 
-menu hamburger button
+07-menu hamburger button
 ========================================== 
 */
 .box-button-menu{
@@ -225,7 +266,7 @@ menu hamburger button
 
 /* 
 ========================================== 
-animation menu hamburger button  
+08-animation menu hamburger button  
 ========================================== 
 */
 
@@ -251,7 +292,7 @@ animation menu hamburger button
 
 /* 
 ========================================== 
-menu roll 
+09-menu roll 
 ========================================== 
 */
 .menu-roll-container{
@@ -296,7 +337,7 @@ menu roll
 
 /* 
 ========================================== 
-Javascript hamburger button
+10-Javascript hamburger button
 ========================================== 
 */
 
@@ -322,7 +363,7 @@ Javascript hamburger button
 
 /* 
 ========================================== 
-Javascript menu roll down and up
+11-Javascript menu roll down and up
 ========================================== 
 */
 
@@ -335,7 +376,7 @@ Javascript menu roll down and up
 
 /* 
 ========================================== 
-Title container 
+12-TITLE CONTAINER  
 ========================================== 
 */
 
@@ -349,11 +390,21 @@ Title container
     transition-duration:0.5s;
 }
 
+.maintext{
+    font-weight: 700;
+    line-height: 60px;
+    transition-duration:0.5s;
+}
+
+.maintext-smaler{
+    line-height: 40px;
+}
+
 
 
 /* 
 ========================================== 
-ANIMATION PORTFOLIO 
+13-ANIMATION PORTFOLIO 
 ========================================== 
 */
 .animation-portfolio{
@@ -371,7 +422,7 @@ ANIMATION PORTFOLIO
 
 /* 
 ========================================== 
-INFO CONTAINER 
+14-INFO CONTAINER 
 ========================================== 
 */
 
@@ -380,6 +431,7 @@ INFO CONTAINER
     justify-content: center;
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 5%;
     
 }
 
@@ -391,13 +443,70 @@ INFO CONTAINER
 }
 
 
-.bold{
-    font-weight: 700;
+
+.bigger{
     color:#FEC100;
     font-size:160%;
     line-height: 120%;
+}
+
+/* 
+========================================== 
+15-BLUE ANIMATION CONTAINER 
+========================================== 
+*/
+
+.blue-animation-container{
+    padding:100px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    background-color:#01578D;
+    width:100%;
+}
+
+.box-animation{
+    display: flex;
+    width:100%;
+    justify-content: center;
     
 }
+
+
+/* 
+========================================== 
+16-WHITE CONTAINER INFO HELP
+========================================== 
+*/
+
+
+.white-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:white;
+    width:100%;
+    
+}
+
+.white-container-box{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    max-width:1024px;
+    height:560px;
+    text-align: center;
+    box-sizing: border-box;
+    padding:70px 0px 0px 20px;
+    
+}
+
+.white-container-box{
+    color:#CB3531;
+    
+}
+
 
 
 
