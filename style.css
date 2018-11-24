@@ -126,10 +126,12 @@ body
 
 
 .bold{
-    font-weight: 700;
+    font-weight: 600;
     
     
 }
+
+
 
 
 
@@ -493,19 +495,84 @@ header{
 .white-container-box{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width:100%;
     max-width:1024px;
-    height:560px;
     text-align: center;
     box-sizing: border-box;
-    padding:70px 0px 0px 20px;
+    padding:70px 0px 20px 0px;
+    color:#CB3531;
+}
+
+
+
+.white-container-img-sukcess{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top:20px;
+}
+
+
+
+
+
+
+/* 
+========================================== 
+17-BOXS INFOGRAPHIC
+========================================== 
+*/
+
+
+.container-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#F6F6F6;
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
-.white-container-box{
-    color:#CB3531;
+
+
+
+.white-container-box-infographic-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 1024px;
+    
+    
     
 }
+
+.box-infographic{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 25%;
+    padding-top: 35px;
+    
+    
+    
+    
+}
+
+.box-text{
+    margin-top: 20px;
+}
+
+
 
 
 
