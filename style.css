@@ -17,6 +17,10 @@
 14-INFO CONTAINER 
 15-BLUE ANIMATION CONTAINER 
 16-WHITE CONTAINER INFO HELP
+17-BOXS INFOGRAPHIC
+18-CONTAINER REALIZACJE
+19-CONTAINER KONTAKT 
+20-CONTAINER FOOTER
 ========================================== 
 */
 
@@ -573,9 +577,222 @@ header{
 }
 
 
+/* 
+========================================== 
+18-CONTAINER REALIZACJE
+========================================== 
+*/
+
+.container-realizcje{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    
+    
+}
+
+.title-realizacje{
+    color:white;
+    margin-bottom: 30px;
+}
 
 
 
+.container-realizcje{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    max-width:1024px;
+    text-align: center;
+    box-sizing: border-box;
+    padding:70px 20px 70px 20px;
+    
+    
+}
+
+
+.container-realizacje-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.container-realizacje-box-project{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height:250px;
+    max-height: 250px;
+    width: 200px;
+    max-width: 200px;
+    box-sizing: border-box;
+    margin:5px 5px 5px 5px;
+    overflow: hidden;
+    transition-duration:0.5s;
+    
+}
+
+
+.container-realizacje-box-project:hover{
+    filter: brightness(50%);
+    transition-duration:0.5s;
+    
+}
+
+
+.container-realizacje-box-project img{
+    transition-duration:0.5s;
+}
+
+ .container-realizacje-box-project img:hover{
+    transform: scale(1.2);
+    transition-duration:1.5s;
+}
+
+
+/* 
+========================================== 
+19-CONTAINER KONTAKT 
+========================================== 
+*/
+
+.container-kontakt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width:100%;
+    background-color:white;
+    box-sizing: border-box;
+    padding:50px 0px 50px 0px;
+    color: #F25652;
+    
+}
+
+
+.container-kontakt-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:800px;
+    box-sizing: border-box;
+    margin:0px 10px 0px 10px;
+}
+
+.conteiner-kontakt-title-info p{
+    padding: 10px 
+}
+
+.container-kontakt-form{
+    
+    display: flex;
+    justify-content:space-between;
+    max-width: 1024px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    
+    
+}
+
+
+/* 
+========================================== 
+FORM ITEMS
+========================================== 
+*/
+
+input{
+  background-color: #F25652;
+  color:white;
+  box-sizing: border-box;
+  padding: 5px;
+  margin:10px 0px 10px 0px;
+  border-style:none;
+
+}
+
+.name{
+  width: 288px;
+  height: 33px;
+  
+}
+
+.name:hover{
+  background-color:#b02724;
+  transition-duration:0.5s;   
+}
+
+.lastname{
+  width: 288px;
+  height: 33px;
+}
+
+.lastname:hover{
+  background-color:#b02724;
+  transition-duration:0.5s; 
+}
+
+.textarea{
+  width: 100%;
+  height: 133px; 
+  background-color: #F25652;
+  color:white; 
+  border-style: none;
+  box-sizing: border-box;
+  padding: 10px;
+  transition-duration:0.5s;
+}
+
+.textarea:hover{
+  background-color:#b02724;
+  transition-duration:0.5s;
+}
+
+.btn-wyslij{
+  width: 188px;
+  height: 33px;
+  transition-duration:0.5s;
+}
+
+.btn-wyslij:hover{
+  background-color:#b02724;
+  transition-duration:0.5s;
+}
+
+
+
+
+
+
+
+
+
+/* 
+========================================== 
+20-CONTAINER FOOTER 
+========================================== 
+*/
+
+
+
+.container-footer{
+    display: flex;
+    width:100%;
+    color: white;
+    box-sizing: border-box;
+    padding:30px 10px 30px 10px;
+}
+
+.container-footer-box{
+    height: 10px;
+}
 
 
 
